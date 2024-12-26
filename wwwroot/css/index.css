@@ -212,21 +212,21 @@ del{
 }
 
 .sidebar-dark-primary, .login-box {
-  background-image: url("../images/bg.png");
+  background-image: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
 }
 
 .brand-link, .main-header, .nav-item, .navbar-nav .nav-link, .control-sidebar, .main-footer{
-  background-color: #00101f !important;
+  background-color: #1e3c72 !important;
   color: #ffffff !important;
   border-bottom: 0px;
 }
 
 .nav-pills .has-treeview{
-  background-color: #00101f59 !important;
+  background-color: rgba(30, 60, 114, 0.7) !important;
 }
 
 .nav-pills .has-treeview .nav-item{
-  background-color: #00101f96 !important;
+  background-color: rgba(42, 82, 152, 0.9) !important;
 }
 
 .sidebar{
@@ -263,13 +263,14 @@ del{
 
 .login-box .login-logo a, .login-box, .login-logo {
   color: #ffffff !important;
-  background-color: #00101f !important;
+  background-color: rgba(30, 60, 114, 0.95) !important;
   padding: 0px;
   margin: 0px;
 }
 
 .login-box{
-  box-shadow: 0 0 5px rgba(0,16,31, 0.918),0 1px 5px rgba(0,16,31,.2);
+  box-shadow: 0 0 20px rgba(42, 82, 152, 0.3), 0 1px 10px rgba(30, 60, 114, 0.2);
+  border-radius: 8px;
 }
 
 .nonono{

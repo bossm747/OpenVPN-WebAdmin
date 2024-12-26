@@ -31,8 +31,8 @@
 	$sessdebug = FALSE;
 
 	/* Site-Name */
-	define('_SITE_NAME',"OVPN-WebAdmin");
-	define('HOME_URL',"vpn.home");
+	define('_SITE_NAME',"Innovate Hub VPN");
+	define('HOME_URL',"innovatehub.vpn");
 	define('_DEFAULT_LANGUAGE','de_DE');
 
 	/** Login Site */

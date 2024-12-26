@@ -27,18 +27,45 @@ include (REAL_BASE_DIR.'/include/html/login/login.functions.php');
 <html>
   <head>
     <meta charset="utf-8" />
-    <title><?php echo _SITE_NAME; ?></title>
+    <title><?php echo _SITE_NAME; ?> - Secure VPN Portal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
     <link rel="stylesheet" href="node_modules/admin-lte/plugins/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="node_modules/admin-lte/dist/css/adminlte.min.css">
     <link rel="stylesheet" href="css/index.css" type="text/css" />
+    <style>
+      .login-box {
+        background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+        border-radius: 8px;
+        box-shadow: 0 0 20px rgba(42, 82, 152, 0.3);
+      }
+      .login-box-msg {
+        color: white;
+        font-size: 1.1em;
+      }
+      .input-group-text {
+        background-color: rgba(255, 255, 255, 0.1);
+        border: none;
+        color: white;
+      }
+      .form-control {
+        background-color: rgba(255, 255, 255, 0.9);
+        border: none;
+      }
+      .btn-primary {
+        background-color: #1e3c72;
+        border: none;
+      }
+      .btn-primary:hover {
+        background-color: #2a5298;
+      }
+    </style>
   </head>
   <body class="hold-transition login-page">
   <?php echo noscript(); ?>
     <div class="login-box">
       <div class="login-logo">
-        <a href="/"><img src="images/logo.png" />&nbsp;<?php echo _SITE_NAME; ?></a>
+        <a href="/"><img src="images/logo.svg" alt="<?php echo _SITE_NAME; ?>" style="max-width: 200px; height: auto;" /></a>
       </div>
       <div class="login-box-body">
         <p class="login-box-msg"><?php echo GET_Lang::nachricht("_LOGIN_DATA") ?></p>

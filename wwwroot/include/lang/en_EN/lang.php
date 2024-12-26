@@ -25,14 +25,14 @@
  */
 
 $message['_NO_USER']                = "Unknown user name";
-$message['_SITE_TITLE']             = "Page title";
-$message['_LANGUGE_ERROR']          = "Error in the language file";
-$message['_NEED_JAVASCRIPT']        = "Sorry, JavaScript is required!";
+$message['_SITE_TITLE']             = "Innovate Hub VPN";
+$message['_LANGUGE_ERROR']          = "Language file error detected";
+$message['_NEED_JAVASCRIPT']        = "Please enable JavaScript to continue";
 
-$message['_HOME']                   = "Home";
-$message['_OVERVIEW']               = "Overview";
-$message['_INFOS_PLUS']             = "Additional information";
-$message['_WELCOME']                = "Welcome";
+$message['_HOME']                   = "Dashboard";
+$message['_OVERVIEW']               = "Network Overview";
+$message['_INFOS_PLUS']             = "Additional Details";
+$message['_WELCOME']                = "Welcome to Innovate Hub VPN";
 
 $message['_USERS']                  = "User";
 $message['_DISK']                   = "Disk";
@@ -63,10 +63,10 @@ $message['_VIEW']                   = "view";
 $message['_LOGIN']                  = "Login";
 $message['_LOGIN_NAME']             = "Username";
 $message['_LOGIN_PASS']             = "Password";
-$message['_LOGIN_DATA']             = "Please enter login data";
-$message['_LOGIN_SAVE']             = "remember login";
-$message['_LOGOUT']                 = "X";
-$message['_YOUR_LOGIN']             = "Your account";
+$message['_LOGIN_DATA']             = "Sign in to your secure VPN portal";
+$message['_LOGIN_SAVE']             = "Keep me signed in";
+$message['_LOGOUT']                 = "Sign Out";
+$message['_YOUR_LOGIN']             = "My Profile";
 $message['_USER_RIGHTS']            = "Your User rights";
 
 $message['_SAVE_PW']                = "Save";
@@ -94,8 +94,8 @@ $message['_SSL_CERTS_LIST']         = "List certificates";
 
 $message['_TODAY']                  = date('Y.m.d');
 
-$message['_VPN_DATA_SAV']           = "Save your ...";
-$message['_VPN_DATA_TT']            = "Select and download your client definition";
+$message['_VPN_DATA_SAV']           = "Download Configuration";
+$message['_VPN_DATA_TT']            = "Get your personalized VPN configuration";
 $message['_VPN_DATA_OSX']           = "OSX-Config";
 $message['_VPN_DATA_WIN']           = "WIN-Config";
 $message['_VPN_DATA_LIN']           = "Android/Linux-Config";
