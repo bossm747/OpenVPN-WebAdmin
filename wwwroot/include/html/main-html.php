@@ -1,6 +1,6 @@
 <?php
 /**
- * this File is part of OpenVPN-WebAdmin - (c) 2020 OpenVPN-WebAdmin
+ * this File is part of Innovate Hub VPN - (c) 2020 Innovate Hub VPN
  *
  * NOTICE OF LICENSE
  *
@@ -12,11 +12,11 @@
  * @fork Original Idea and parts in this script from: https://github.com/Chocobozzz/OpenVPN-Admin
  *
  * @author    Wutze
- * @copyright 2020 OpenVPN-WebAdmin
- * @link			https://github.com/Wutze/OpenVPN-WebAdmin
+ * @copyright 2020 Innovate Hub VPN
+ * @link			https://github.com/Wutze/Innovate-Hub-VPN
  * @see				Internal Documentation ~/doc/
  * @version		1.5.0
- * @todo			new issues report here please https://github.com/Wutze/OpenVPN-WebAdmin/issues
+ * @todo			new issues report here please https://github.com/Wutze/Innovate-Hub-VPN/issues
  */
 
 (stripos($_SERVER['PHP_SELF'], basename(__FILE__)) === false) or die('access denied?');
@@ -43,4 +43,3 @@ include(REAL_BASE_DIR."/include/html/content/main-sidebar.php");
 include(REAL_BASE_DIR."/include/html/content/main-content.php");
 
 ?>
-

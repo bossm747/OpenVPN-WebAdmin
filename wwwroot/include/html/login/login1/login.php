@@ -27,7 +27,7 @@ include (REAL_BASE_DIR.'/include/html/login/login.functions.php');
 <html>
   <head>
     <meta charset="utf-8" />
-    <title><?php echo _SITE_NAME; ?></title>
+    <title>Innovate Hub VPN</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" href="node_modules/admin-lte/plugins/fontawesome-free/css/all.min.css">
@@ -38,7 +38,7 @@ include (REAL_BASE_DIR.'/include/html/login/login.functions.php');
   <?php echo noscript(); ?>
     <div class="login-box">
       <div class="login-logo">
-        <a href="/"><img src="images/logo.png" />&nbsp;<?php echo _SITE_NAME; ?></a>
+        <a href="/"><img src="images/innovate-hub-logo.png" />&nbsp;<?php echo _SITE_NAME; ?></a>
       </div>
       <div class="login-box-body">
         <p class="login-box-msg"><?php echo GET_Lang::nachricht("_LOGIN_DATA") ?></p>

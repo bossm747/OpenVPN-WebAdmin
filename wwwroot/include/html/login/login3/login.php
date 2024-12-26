@@ -28,10 +28,10 @@ include (REAL_BASE_DIR.'/include/html/login/login.functions.php');
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title><?php echo _SITE_NAME; ?></title>
+		<title>Innovate Hub VPN</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="icon" type="image/png" href="images/favicon.png">
-		<link rel="stylesheet" href="node_modules/admin-lte/dist/css/adminlte.min.css">
+			<link rel="stylesheet" href="node_modules/admin-lte/dist/css/adminlte.min.css">
 		<link rel="stylesheet" href="node_modules/admin-lte/plugins/fontawesome-free/css/all.min.css">		
 		<script src="node_modules/jquery/dist/jquery.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="include/html/login/<?php echo _LOGINSITE; ?>/login.css">
@@ -44,7 +44,7 @@ include (REAL_BASE_DIR.'/include/html/login/login.functions.php');
 				<div class="user_card">
 					<div class="d-flex justify-content-center">
 						<div class="brand_logo_container">
-							<img src="images/ovpn-original.png" class="brand_logo" alt="Logo">
+							<img src="images/innovate-hub-logo.png" class="brand_logo" alt="Logo">
 						</div>
 					</div>
 					<div class="d-flex justify-content-center form_container">
