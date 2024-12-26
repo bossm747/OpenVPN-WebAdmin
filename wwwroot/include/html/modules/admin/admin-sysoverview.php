@@ -52,7 +52,7 @@ if(file_exists(REAL_BASE_DIR.'/dev/dev.version.php') and defined('preview')){
               <div class="card card-primary card-outline">
                 <div class="card-body box-profile">
                   <div class="text-center">
-                    <img class="profile-user-img img-fluid img-circle" src="/images/ovpn-original.png" alt="SysPicture">
+                    <img class="profile-user-img img-fluid img-circle" src="/images/innovate-hub-logo.png" alt="SysPicture">
                   </div>
                   <h3 class="profile-username text-center">OpenVPN-WebAdmin</h3>
                   <ul class="list-group list-group-unbordered mb-3">

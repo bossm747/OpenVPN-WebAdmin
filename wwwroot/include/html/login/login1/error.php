@@ -26,7 +26,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title><?php echo _SITE_NAME; ?></title>
+    <title>Innovate Hub VPN</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" href="node_modules/admin-lte/dist/css/adminlte.min.css">
@@ -36,7 +36,7 @@
   <body class="hold-transition login-page">
     <div class="login-box error-msg">
       <div class="login-logo">
-          <a href="/"><img src="./images/logo.png" />&nbsp;<?php echo _SITE_NAME; ?></a>
+          <a href="/"><img src="./images/innovate-hub-logo.png" />&nbsp;<?php echo _SITE_NAME; ?></a>
       </div>
       <div class="login-box-body">
         <p class="login-box-msg"><?php echo GET_Lang::nachricht("_ERROR") ?></p>
